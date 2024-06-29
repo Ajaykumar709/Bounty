@@ -1,0 +1,43 @@
+body{
+    background-image: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman';
+    color: #291200;
+}
+img{
+    width: 1200px;
+    height: 1200px;
+    margin: auto;
+}
+.co{
+    background-image: url(poster.jpg);
+    border: 10px solid #291200;
+    width: 1500px;
+    font-size: 80px;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Times New Roman';
+}
+.wanted{
+    font-size: 300px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.marine{
+    text-indent: 830px;
+}
+@media (max-width: 767px) {
+    .co {
+        font-size: 10vw;
+    }
+    .wanted {
+        font-size: 120px;
+    }
+    .marine {
+        text-indent: 0; /* Reset indentation for mobile */
+    }
